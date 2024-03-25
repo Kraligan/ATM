@@ -45,7 +45,7 @@ int User::insertCard(ATM& atm) {
 			}
 
 			// When the pin and the account are selected correctly, the user can choose between three options : Balance/Deposit/Withdraw
-			std::cout << "Press 1 to see your Balance, Press 2 to for a Deposit or press 3 for a withdraw : ";
+			std::cout << "Press 1 to see your Balance, Press 2 to for a Deposit or press 3 for a withdrawal : ";
 			int enter = 0;
 			std::cin >> enter;
 			if (enter == 1) {
