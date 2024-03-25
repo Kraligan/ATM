@@ -22,13 +22,14 @@ int User::insertCard(ATM& atm) {
 		int pin = 0;
 		std::cout << "Enter pin ****" << std::endl;
 		std::cin >> pin;
+		std::cout << std::endl;
 		if (pin == m_pin) {
 
 			// Then we ask the user to select his account by entering his account number as listed.
 			//Warning, he can try only 3 times before the ATM reset.
 			int user_entry = 0;
 			std::cout << "Hello " << GetName() << std::endl;
-			std::cout << "select your account by enterting your account number as listed above." << std::endl;
+			std::cout << "select your account by enterting your account number as listed below." << std::endl;
 			std::cout << m_account.GetAccNum() << std::endl;
 			std::cin >> user_entry;
 			int try_number = 3;
