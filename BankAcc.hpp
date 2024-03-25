@@ -1,6 +1,10 @@
 #pragma once
 #include <iostream>
 
+/*
+Header file for the Bank account class. This class is used to create Bank account object.
+*/
+
 class BankAcc {
 public:
 	BankAcc(int AccNum); //constructor

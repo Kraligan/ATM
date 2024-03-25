@@ -3,6 +3,10 @@
 #include "BankAcc.hpp"
 #include "ATM.hpp"
 
+/*
+Header file for the User class. This class is used to create new Users.
+*/
+
 class User {
 public:
 	User(std::string name, BankAcc& account, int balance);

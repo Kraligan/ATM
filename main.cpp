@@ -28,19 +28,15 @@ BankAcc::BankAcc(int AccNum)
 
 int main(int argc, char** argv) {
 
-	ATM atm1(1);
+	ATM atm1(1); //First we create a new ATM.
 
-	BankAcc acc_user1(101);
-	BankAcc acc_user2(201);
+	BankAcc acc_user1(101); // Then we create a bank account for the user.
 
-	User user1("user1", acc_user1, 100);
+	User user1("user1", acc_user1, 100); // Then we create a user and set his initial balance.
 	user1.SetUserBalance();
 
-	User user2("user2", acc_user2, 26);
-	user2.SetUserBalance();
-
 	while (true) {
-		user1.insertCard(atm1);
+		user1.insertCard(atm1); // We simulate that the user inserts his card again and again in order to test many different test cases.
 
 		std::cout << std::endl;
 		continue;

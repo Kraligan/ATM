@@ -2,6 +2,9 @@
 #include <iostream>
 #include "BankAcc.hpp"
 
+/*
+Header file for the ATM class. This class is used to create ATM object.
+*/
 class ATM {
 public:
 	ATM(int ID); //constructor
