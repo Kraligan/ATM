@@ -5,6 +5,8 @@ Once it opens in Visual studio, put the following path: "https://github.com/Kral
 
 ![image](https://github.com/Kraligan/ATM/assets/86051409/20432cd7-209d-4c4f-95da-15f8ed510c6c)
 
+Then you can simply build and run the program using Visual Studio by clicking on the "build and run" icon, or pressing Ctrl+f5.
+
 Test cases:
 Run the program
 1. Set the PIN as the ATM asks, for example 1111
